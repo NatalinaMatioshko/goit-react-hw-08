@@ -1,13 +1,14 @@
-.container {
-  padding: 24px;
-}
-
 .formWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: 1px solid black;
   border-radius: 8px;
   padding: 36px;
-  max-width: 400px;
+  width: 500px;
   margin-bottom: 24px;
+  background-color: #ffffff;
 }
 .wrapper {
   display: flex;
@@ -31,7 +32,7 @@
   color: red;
   background-color: #ffd1d1;
 }
-.addContactBtn {
+.logInBtn {
   display: block;
-  margin: 0 auto;
+  width: 100%;
 }
